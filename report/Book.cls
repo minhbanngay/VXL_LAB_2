@@ -734,7 +734,7 @@
 \newcommand{\chap}[1]{
     \chapter{#1}
     \thispagestyle{empty}
-    \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{source/picture/chapter.png}}
+    \AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{assets/chapter.png}}
     \newpage
 }
 \newcommand{\makecite}[1]{

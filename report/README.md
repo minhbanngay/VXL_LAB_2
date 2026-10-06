@@ -1,15 +1,18 @@
 # Cấu trúc báo cáo Lab 2
 
-Báo cáo của cả 10 exercise được quản lý tập trung trên branch `main`.
+Báo cáo Lab 2 dùng trực tiếp nội dung và hình ảnh của bài 2, không chia file theo
+từng exercise.
 
-- `main.tex`: file LaTeX gốc.
+- `main.tex`: file LaTeX gốc, nạp `source/content/bai_2.tex`.
 - `preamble.tex`: trang bìa và thông tin sinh viên.
-- `source/content/exercise_01.tex` đến `exercise_10.tex`: nội dung từng bài.
-- `source/picture/ex01/` đến `ex10/`: ảnh Proteus và ảnh kết quả từng bài.
+- `source/content/bai_2.tex`: toàn bộ nội dung của Lab 2.
+- `source/picture/bai_2/`: toàn bộ hình ảnh của Lab 2.
+- `assets/`: tài nguyên trình bày dùng chung của mẫu báo cáo.
 
-Không cập nhật report trên các branch `exercise/NN`. Sau khi hoàn thành firmware
-của một bài, chuyển về `main` rồi bổ sung lời giải, mã nguồn và hình ảnh vào file
-exercise tương ứng.
+Nguồn đồng bộ:
+
+- `D:\Study\Lab VXL\[LATEX]MCU_LAB\source\content\bai_2.tex`
+- `D:\Study\Lab VXL\[LATEX]MCU_LAB\source\picture\bai_2\`
 
 Build báo cáo:
 
